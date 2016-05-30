@@ -10,6 +10,9 @@ git svn clone --trunk=/trunk --branches=/branches --tags=/releases
 https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml cml-gi
 ```
 
+Original README
+--------------------------------------------------------------------------------
+
 This is an "beta" release of a completely new implementation of CML.
 It has been in use since the Fall'96, and seems to be robust.
 The doc/HTML directory has partial HTML documentation for this version.
