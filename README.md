@@ -2,12 +2,13 @@
 
 I cloned the svn repo from here:
 https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml
-http://www.smlnj.org/svn.html
+
+See http://www.smlnj.org/svn.html
 
 I tried to keep history. I used the following command:
 ```
 git svn clone --trunk=/trunk --branches=/branches --tags=/releases
-https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml cml-gi
+https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml cml-git
 ```
 
 Original README
@@ -21,7 +22,6 @@ In keeping with the migration of SML/NJ to the SML'97 standard, this version
 of CML has a number of changes in the API.  See the file doc/HTML/porting.html
 for more information.
 
-	- John Reppy
-	  Bell Labs, Lucent Technologies
-	  jhr@research.bell-labs.com
-
+- John Reppy
+  Bell Labs, Lucent Technologies
+  jhr@research.bell-labs.com
