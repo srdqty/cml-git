@@ -7,8 +7,7 @@ See http://www.smlnj.org/svn.html
 
 I tried to keep history. I used the following command:
 ```
-git svn clone --trunk=/trunk --branches=/branches --tags=/releases
-https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml cml-git
+git svn clone --prefix=upstream/ -T trunk -b branches -t releases https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/cml cml-git
 ```
 
 Original README
